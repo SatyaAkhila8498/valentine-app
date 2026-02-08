@@ -1,0 +1,46 @@
+.container {
+    height: 100vh;
+    background: linear-gradient(135deg, #ff758c, #ff7eb3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+  }
+  
+  h1 {
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .buttons {
+    position: relative;
+    height: 150px;
+  }
+  
+  button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .yes {
+    background-color: #ff2e63;
+    color: white;
+    margin-right: 20px;
+  }
+  
+  .no {
+    background-color: #252a34;
+    color: white;
+    position: absolute;
+  }
+  
